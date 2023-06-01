@@ -1,0 +1,25 @@
+1- Create a new Maven Project
+1- Delete Main folder because developers use it
+2- Add dependencies for Selenium
+3- Add dependencies for WebDriver
+4- Test run to see if it is working
+
+driver.get(url) : open url
+driver.navigate().to(url) : load a new page in the current browser
+driver.navigate().back() : move in the browser history to the previous one
+driver.navigate.forward() : move forward in the browser history
+driver.navigate.refresh(): load new web page in the current window
+driver.close() - will close only current window
+driver.quit(). will close all windows opened by browser
+
+
+Maven Basics
+
+1. Create a java project, add packages and add files
+2. Manage dependencies
+3. Compile
+4. Test
+5. Deploy
+6. Generate Reports
+
+

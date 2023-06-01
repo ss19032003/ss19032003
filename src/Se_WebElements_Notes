@@ -1,0 +1,30 @@
+WebElemen-HTML element
+HTML documents are made up by HTML elements
+HTML elements are written with a start tag and with an end tag
+<tagname> content </tagname>
+
+<a href = "http://google.com">Click me!</a>
+
+8 Locators
+
+Id, Class Name, Tag Name, Name, Link Text, Partial Link Text, XPath, CSS
+
+ how to find an element that looks like this
+         <h1>Hello Cybertek</h1>
+         WebElement frame = driver.findElement(By.tagName)
+         Tag has always purple or pink color
+         Then attribute has orange color
+         Value of attribute blue
+         Text is black
+         <xxx == bu tag name
+         We always look into open tag not the close one
+
+         Find the element with matching name attribute
+
+         <input name="cheese" type="text"/>
+
+         WebElement cheese = driver.findElement(By.name("chese")
+
+
+
+
